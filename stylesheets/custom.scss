@@ -1,1 +1,60 @@
+// 
 // edit this file for custom styling
+//
+
+// flickr badge styling
+#flickr_badge_source_txt {
+  padding: 0;
+  font: 11px Arial, Helvetica, Sans serif;
+  color: #666666;
+}
+
+#flickr_badge_icon {
+  display: block !important;
+  margin: 0 !important;
+  border: 1px solid rgb(0, 0, 0) !important;
+}
+
+#flickr_icon_td {
+  padding: 0 5px 0 0 !important;
+}
+
+.flickr_badge_image {
+  text-align: center !important;
+  padding: 5px 8px 5px 0px !important;
+  img {
+    border: 1px solid #BBBBBB;
+    background-color: #FFFFFF;
+    padding: 4px;
+  }
+}
+
+#flickr_www {
+  display: block;
+  padding: 0 10px 0 10px !important;
+  font: 11px Arial, Helvetica, Sans serif !important;
+  color: #3993ff !important;
+}
+
+#flickr_badge_uber_wrapper a {
+  &:hover, &:link, &:active, &:visited {
+    text-decoration: none !important;
+    background: inherit !important;
+    color: #3993ff;
+  }
+}
+
+#flickr_badge_wrapper {
+  background-color: none;
+  border: none;
+  border-collapse: collapse;
+  tbody {
+    border: none;
+  }
+}
+
+#flickr_badge_source {
+  padding: 0 !important;
+  font: 11px Arial, Helvetica, Sans serif !important;
+  color: #666666 !important;
+}
