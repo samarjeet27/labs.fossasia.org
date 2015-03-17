@@ -1,3 +1,6 @@
 title: FOSSASIA Labs
 gems:
   - jekyll-redirect-from
+sass:
+  sass_dir: stylesheets
+  style: :compressed

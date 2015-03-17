@@ -1,26 +1,36 @@
-
 /* ---------- Color Module Styles ----------- */
 
-body,
-body.overlay {
+body {
   color: #3b3b3b;
+  &.overlay {
+    color: #3b3b3b;
+  }
 }
+
 .comment .comment-arrow {
   border-color: #ffffff;
 }
-#page,
-#main-wrapper,
-#main-menu-links li a.active,
-#main-menu-links li.active-trail a {
+
+#page, #main-wrapper {
   background: #ffffff;
 }
-.tabs ul.primary li a.active {
-  background-color: #ffffff;
+
+#main-menu-links li {
+  a.active, &.active-trail a {
+    background: #ffffff;
+  }
 }
-.tabs ul.primary li.active a {
-  background-color: #ffffff;
-  border-bottom: 1px solid #ffffff;
+
+.tabs ul.primary li {
+  a.active {
+    background-color: #ffffff;
+  }
+  &.active a {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+  }
 }
+
 #header {
   background-color: #c3c3c0;
   background-image: -moz-linear-gradient(top, #ffffff 0%, #c3c3c0 100%);
@@ -30,29 +40,40 @@ body.overlay {
   background-image: -webkit-linear-gradient(top, #ffffff 0%, #c3c3c0 100%);
   background-image: linear-gradient(top, #ffffff 0%, #c3c3c0 100%);
 }
+
 a {
   color: #e80707;
+  &:hover, &:focus {
+    color: #ff1414;
+  }
+  &:active {
+    color: #fe4a4a;
+  }
 }
-a:hover,
-a:focus {
-  color: #ff1414;
-}
-a:active {
-  color: #fe4a4a;
-}
+
 .sidebar .block {
   background-color: #f6f6f2;
   border-color: #f9f9f9;
 }
-#page-wrapper,
-#footer-wrapper {
+
+#page-wrapper, #footer-wrapper {
   background: #292929;
 }
-.region-header,
-.region-header a,
-.region-header li a.active,
-#name-and-slogan,
-#name-and-slogan a,
+
+.region-header {
+  color: #2e2d2e;
+  a, li a.active {
+    color: #2e2d2e;
+  }
+}
+
+#name-and-slogan {
+  color: #2e2d2e;
+  a {
+    color: #2e2d2e;
+  }
+}
+
 #secondary-menu-links li a {
   color: #2e2d2e;
 }
